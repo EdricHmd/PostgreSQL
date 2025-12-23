@@ -1,0 +1,33 @@
+### post /users
+post  http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe1@example.com"
+}
+
+### get /users
+get  http://localhost:3001/api/users   
+
+### delete /users/:id
+delete  http://localhost:3001/users/1
+
+### post /course
+post  http://localhost:3001/api/school/courses
+Content-Type: application/json  
+
+{
+  "title": "Introduction to Programming",
+  "description": "Learn the basics of programming.",
+  "code": "CS101"
+}
+
+###enroll student in course
+post  http://localhost:3001/api/school/enroll
+Content-Type: application/json  
+
+{
+  "userId": 1,
+  "courseId": 3
+}
