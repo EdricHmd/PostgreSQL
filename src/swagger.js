@@ -15,7 +15,7 @@ const options = {
         name: "API Support",
         email: "support@example.com"
       }
-    },s
+    },
     servers: [
       {
         url: process.env.API_URL,
